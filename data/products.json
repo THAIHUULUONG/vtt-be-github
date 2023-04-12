@@ -1,0 +1,17 @@
+[
+    {
+        "name": "token name 1",
+        "address": "0x3bb2b2455356de1cd8c91030b1864210c5ddc7f1",
+        "limit": 1000
+    },
+    {
+        "name": "token name 2",
+        "address": "0x92d47b6e3dce6471f42021db650a611af4257771",
+        "limit": 2000
+    },
+    {
+        "name": "token name 3",
+        "address": "0xa3438081956b35d5c23203197360f7b082cc4c9d",
+        "limit": 3000
+    }
+]
