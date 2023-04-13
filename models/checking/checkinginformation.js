@@ -18,6 +18,16 @@ const informationCheckingSchema = new mongoose.Schema({
         required: [true, 'Please enter phone'],
         trim: true,
         maxLength: [11, 'Limit cannot exceed 11 characters']
+    },
+    arrayAnswer: {
+        type: Array,
+        required: [true, 'Array Answer Not Null'],
+        trim: true
+    },
+    timeAnswer: {
+        type: String,
+        required: [true, 'Time Not Null'],
+        trim: true,
     }
 })
 
