@@ -28,6 +28,11 @@ const informationCheckingSchema = new mongoose.Schema({
         type: String,
         required: [true, 'Time Not Null'],
         trim: true,
+    },
+    resultCheck: {
+        type: String,
+        required: [true, 'Result Check Not Null'],
+        trim: true,
     }
 })
 
